@@ -97,7 +97,7 @@ header a p {
 .carousel{
 
 	width: 50%;
-	min-width: 450px;
+	min-width: 300px;
 	margin: auto;
 
 }
@@ -209,6 +209,10 @@ header a p {
 		font-size: 12px;
 		font-weight: 700;
 
+	}
+	
+	.pro-beauty .product {
+		padding:3%;
 	}
 
 

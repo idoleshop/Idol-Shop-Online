@@ -23,13 +23,19 @@ header{
 	text-align: center;
 	padding: 0.5%;
 	background-color: aqua;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	border-bottom: solid black 0.1px;
 
 }
 
 header img[alt="Logo"] {
 
-	width: 150px;
-	height: 75px;
+	width: 80px;
+	height: 70px;
+	border-radius: 50%;
+
 
 }
 
@@ -42,8 +48,8 @@ header a {
 
 header a img {
 
-	width: 65px;
-	height: 50px;
+	width: 35px;
+	height: 32px;
 
 }
 
@@ -99,7 +105,7 @@ header a img {
 	max-width: 250px;
 	margin-top: 50px;
 	text-align: center;
-	border: solid black;
+	border: solid black 0.2px;
 	border-radius: 25px;
 	padding: 2%;
 	height: 330px;

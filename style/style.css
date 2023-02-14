@@ -182,7 +182,7 @@ header a p {
 .banner img {
 
 	width: 100%;
-	height: 75vh;
+	height: 45vh;
 
 }
 
@@ -215,5 +215,41 @@ header a p {
 		padding:3%;
 	}
 
+
+}
+
+@media all and (max-width: 420px){
+
+	header img[alt="Logo"] {
+
+		width: 50px;
+		height: 40px;
+	
+	}
+
+	header a img {
+
+		width: 35px;
+		height: 20px;
+
+	}
+
+	header a p {
+
+		font-size: 10px;
+		font-weight: 700;
+
+	}
+	
+	.pro-beauty .product {
+		padding:3%;
+		min-width: 155px;
+	}
+
+	.pro-beauty .product img {
+		
+		width: 90%;
+
+	}
 
 }

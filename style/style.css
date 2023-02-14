@@ -53,6 +53,12 @@ header a img {
 
 }
 
+header a p {
+
+	margin: 0 !important;
+
+}
+
 
 /* Sliders  */
 
@@ -137,5 +143,34 @@ header a img {
 
 	color: red;
 	font-weight: bold;
+
+}
+
+
+
+
+@media all and (max-width: 850px){
+
+	header img[alt="Logo"] {
+
+		width: 60px;
+		height: 50px;
+	
+	}
+
+	header a img {
+
+		width: 30px;
+		height: 25px;
+
+	}
+
+	header a p {
+
+		font-size: 12px;
+		font-weight: 700;
+
+	}
+
 
 }
